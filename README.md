@@ -49,7 +49,19 @@ See in-code comments for additional documentation.
 
 ## Setting Up the Project
 
+Prerequisites: Flutter & Git (see sections below if you're confused). Note that all commands are for \*nix terminals/shells.
+
+1. Join the [Babson Global Health Innovation GitHub org](https://github.com/Babson-Global-Health-Innovation) and get Commit privileges
+2. Clone the project: `git clone https://github.com/Babson-Global-Health-Innovation/medcom-mobile.git`
+3. Navigate inside the project directory. (e.g. `cd medcom-mobile`)
+4. Open a phone simulator (i.e. via android studio. Run `open -a Simulator` if you're on a Mac)
+5. Run `flutter run`. This will download project dependencies and launch the app in the simulator.
+6. Create a branch for your own work, commit/push to it, and open a pull request.
+7. Review pull-requests and merge if everything looks good.
+
 ## Learning Flutter
+
+Flutter is a mobile app development framework.
 
 A few resources to get you started if this is your first Flutter project:
 
@@ -61,3 +73,21 @@ For help getting started with Flutter, view
 samples, guidance on mobile development, and a full API reference.
 
 ## Learning Git
+
+Git is a source code versioning system.
+
+A few resources to get you started if this is your first time using git:
+
+- [Using Git for the first time](https://docs.github.com/en/get-started/quickstart/set-up-git)
+- [Learning Git Basics](https://learngitbranching.js.org/)
+
+For help getting started with Git and Github, follow
+[Introduction to GitHub](https://lab.github.com/githubtraining/introduction-to-github), which will teach you how to
+
+- Communicate in issues
+- Manage notifications
+- Create branches
+- Make commits
+- Introduce changes with pull requests
+
+All of which are relevant to this project.
